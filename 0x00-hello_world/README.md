@@ -24,3 +24,7 @@ This C program prints a string using the "puts()" function; "printf()" is not us
 5-printf
 Task 5.
 This C program prints a string using the "printf()" function.
+
+100-intel
+Task 7.
+This script generates the assembly code of a C file, in Intel syntax, and saves it in an output file that has a similar name to the C file albeit having a ".s" extension.
