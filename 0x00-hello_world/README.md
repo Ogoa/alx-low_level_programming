@@ -8,3 +8,7 @@ This script runs a C file through the preprocessor and save the result into anot
 1-compiler
 Task 1.
 This script compiles a C file but does not link it.It also sets the name of the output file to be similar to that of the C file, but with a ".o" extension.
+
+2-assembler
+Task 2.
+This script generates the assembly code of a C source code file and saves it in an output file that has a similar to the source code file but with an ".o" extension.
