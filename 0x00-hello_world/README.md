@@ -12,3 +12,7 @@ This script compiles a C file but does not link it.It also sets the name of the 
 2-assembler
 Task 2.
 This script generates the assembly code of a C source code file and saves it in an output file that has a similar to the source code file but with an ".o" extension.
+
+3-name
+Task 3.
+This script compiles a C ile and creates an executable named "cisfun".
