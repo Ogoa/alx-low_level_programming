@@ -16,3 +16,7 @@ This script generates the assembly code of a C source code file and saves it in 
 3-name
 Task 3.
 This script compiles a C ile and creates an executable named "cisfun".
+
+4-puts.c
+Task 4.
+This C program prints a string using the "puts()" function; "printf()" is not used.
