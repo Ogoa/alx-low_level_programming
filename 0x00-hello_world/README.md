@@ -20,3 +20,7 @@ This script compiles a C ile and creates an executable named "cisfun".
 4-puts.c
 Task 4.
 This C program prints a string using the "puts()" function; "printf()" is not used.
+
+5-printf
+Task 5.
+This C program prints a string using the "printf()" function.
