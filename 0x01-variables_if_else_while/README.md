@@ -28,3 +28,7 @@ This program prints all single digit numbers of base 10 starting from 0, followe
 6-print_numberz.c
 Task 6.
 This program prints all single digit numbers of base 10 starting from , but only "putchar()" is used.
+
+7-print_tebahpla.c
+Task 7.
+This program prints the lowercase alphabet in reverse followed by a new line. Only "putchar()" is used in this case.
