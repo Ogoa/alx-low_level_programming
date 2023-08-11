@@ -20,3 +20,7 @@ This program prints the alphabet in lowercase and then in uppercase, followed by
 4-print_alphabt.c
 Task 4.
 This program prints the alphabet in lowercase, with an exception of 'q' and 'e', followed by a new line. Only "putchar()" is used in this case.
+
+5-print_numbers.c
+Task 5.
+This program prints all single digit numbers of base 10 starting from 0, followed by a new line.
