@@ -12,3 +12,7 @@ This program generates a random number and prints out a string depending on the 
 2-print_alphabet.c
 Task 2.
 This program prints the alphabet in lowercase, followed by a new line. Only "putchar()" is used in this case.
+
+3-print_alphabets.c
+Task 3.
+This program prints the alphabet in lowercase and then in uppercase, followed by a new line. Only "putchar()" is used in this case.
