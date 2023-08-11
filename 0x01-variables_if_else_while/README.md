@@ -16,3 +16,7 @@ This program prints the alphabet in lowercase, followed by a new line. Only "put
 3-print_alphabets.c
 Task 3.
 This program prints the alphabet in lowercase and then in uppercase, followed by a new line. Only "putchar()" is used in this case.
+
+4-print_alphabt.c
+Task 4.
+This program prints the alphabet in lowercase, with an exception of 'q' and 'e', followed by a new line. Only "putchar()" is used in this case.
