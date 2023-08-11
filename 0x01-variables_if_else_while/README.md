@@ -32,3 +32,7 @@ This program prints all single digit numbers of base 10 starting from , but only
 7-print_tebahpla.c
 Task 7.
 This program prints the lowercase alphabet in reverse followed by a new line. Only "putchar()" is used in this case.
+
+8-print_base16.c
+Task 8.
+This program prints all the numbers of base 16 in lowercase, followed by a new line. Only "putchar()" is used in this case.
