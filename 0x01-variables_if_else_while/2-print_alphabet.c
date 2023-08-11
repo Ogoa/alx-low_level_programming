@@ -3,7 +3,6 @@
 
 /**
  * main - Entry point of the program
- * @i: Used to iterate through alphabetical characters
  *
  * Return: Always 0 (Successful exit)
  */

@@ -7,7 +7,9 @@
  */
 int main(void)
 {
-	for (int i = 0; i < 16; i++)
+	char i;
+
+	for (i = 0; i < 16; i++)
 	{
 		if (i < 10)
 			putchar(tolower(i + 48));
