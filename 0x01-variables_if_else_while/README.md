@@ -6,5 +6,9 @@ Task 0.
 This prints whether a randomly generated number is greater than, equal to, or less than 0.
 
 1-last_digit.c
-Task 0.
+Task 1.
 This program generates a random number and prints out a string depending on the last digit of the number.
+
+2-print_alphabet.c
+Task 2.
+This program prints the alphabet in lowercase, followed by a new line. Only "putchar()" is used in this case.
