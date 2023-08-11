@@ -40,3 +40,7 @@ This program prints all the numbers of base 16 in lowercase, followed by a new l
 100-print_comb3.c
 Task 10.
 This program prints all possible different combinations of two digits. Separated by a comma followed by a space. Only "putchar()" is used in this case; a maximum of five times.
+
+101-printf_comb4.c
+Task 11.
+This program prints all possible different combinations of three digits seperated by a comma and a space, in ascending order. Only "putchar()" can be used in this case;  a maximum of six times.
