@@ -36,3 +36,7 @@ This program prints the lowercase alphabet in reverse followed by a new line. On
 8-print_base16.c
 Task 8.
 This program prints all the numbers of base 16 in lowercase, followed by a new line. Only "putchar()" is used in this case.
+
+100-print_comb3.c
+Task 10.
+This program prints all possible different combinations of two digits. Separated by a comma followed by a space. Only "putchar()" is used in this case; a maximum of five times.
