@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char[] prefix = "Size of", suffix = "byte(s)\n";
+	char prefix[] = "Size of", suffix[] = "byte(s)\n";
 
 	printf("%s a char: %zu %s", prefix, sizeof(char), suffix);
 	printf("%s an int: %zu %s", prefix, sizeof(int), suffix);
