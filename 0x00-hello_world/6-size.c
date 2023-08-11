@@ -17,3 +17,4 @@ int main(void)
 	printf("%s a long long int: %zu %s", prefix, sizeof(long long int), suffix);
 	printf("%s a float: %zu %s", prefix, sizeof(float), prefix);
 	return (0);
+}
