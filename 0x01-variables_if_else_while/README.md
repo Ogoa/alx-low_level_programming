@@ -24,3 +24,7 @@ This program prints the alphabet in lowercase, with an exception of 'q' and 'e',
 5-print_numbers.c
 Task 5.
 This program prints all single digit numbers of base 10 starting from 0, followed by a new line.
+
+6-print_numberz.c
+Task 6.
+This program prints all single digit numbers of base 10 starting from , but only "putchar()" is used.
