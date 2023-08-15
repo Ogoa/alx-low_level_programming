@@ -47,3 +47,7 @@ This program contains a function that prints every minute of the day of Jack Bau
 9-times_table.c
 Task 9
 This program contains a function that prints the 9 times table starting with 0.
+
+10-add.c
+Task 10
+This program contains a function that adds two given integers and returns the result.
