@@ -31,3 +31,7 @@ This program contains a function that checks for an alphabetic character. It ret
 5-sign.c
 Task 5
 This program contains a function that prints the sign of a number; '+' if it is greater thn 0, '0' if it is 0 and '-' if it is less than 0.
+
+6-abs.c
+Task 6
+This program contains a function that computes the absolute value of an integer.
