@@ -19,3 +19,7 @@ This program contains a function that prints the alphabet in lowercase, followed
 2-print_alphabet_x10
 Task 2
 This program contains a function that prints 10 rows of the alphabet in lowercase, followed by a new line.
+
+3-islower.c
+Task 3
+This program contains a function that checks for the lowercase character. It returns 1 if the character is lowercase and 0 if otherwise.
