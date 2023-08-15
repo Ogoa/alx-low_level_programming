@@ -8,9 +8,8 @@ void print_alphabet(void)
 {
 	int i;
 
-	for (i = 0; i <= 'z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		_putchar(tolower(i + 48));
+		_putchar(tolower(i));
 	}
-	return;
 }

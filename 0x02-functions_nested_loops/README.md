@@ -13,5 +13,9 @@ Task 0
 This program prints "_putchar"(_) followed by a new line.
 
 1-alphabet.c
-Task 0
+Task 1
 This program contains a function that prints the alphabet in lowercase, followed by a new line.
+
+2-print_alphabet_x10
+Task 2
+This program contains a function that prints 10 rows of the alphabet in lowercase, followed by a new line.
