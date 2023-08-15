@@ -55,3 +55,7 @@ This program contains a function that adds two given integers and returns the re
 11-print_to_98.c
 Task 11
 This program contains a function that prints all natural numbers from a given number 'n' to 98, followed by a new line. The numbers are separated by a comma followed by a space and are printed in order.
+
+100-times_table.c
+Task 12
+This program contains a function that prints the times table of a given number 'n', starting with 0. If 'n' is greater than 15 or less than 0, nothing is printed.
