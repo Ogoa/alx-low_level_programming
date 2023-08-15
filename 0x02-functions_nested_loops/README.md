@@ -11,3 +11,7 @@ This is a header file that has all function prototypes as well as the prototype 
 0-putchar.c
 Task 0
 This program prints "_putchar"(_) followed by a new line.
+
+1-alphabet.c
+Task 0
+This program contains a function that prints the alphabet in lowercase, followed by a new line.
