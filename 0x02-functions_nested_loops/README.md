@@ -27,3 +27,7 @@ This program contains a function that checks for the lowercase character. It ret
 4-isalpha.c
 Task 4
 This program contains a function that checks for an alphabetic character. It returns 1 if the character is a letter - lowercase or uppercase - and 0 otherwise.
+
+5-sign.c
+Task 5
+This program contains a function that prints the sign of a number; '+' if it is greater thn 0, '0' if it is 0 and '-' if it is less than 0.
