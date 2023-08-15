@@ -23,3 +23,7 @@ This program contains a function that prints 10 rows of the alphabet in lowercas
 3-islower.c
 Task 3
 This program contains a function that checks for the lowercase character. It returns 1 if the character is lowercase and 0 if otherwise.
+
+4-isalpha.c
+Task 4
+This program contains a function that checks for an alphabetic character. It returns 1 if the character is a letter - lowercase or uppercase - and 0 otherwise.
