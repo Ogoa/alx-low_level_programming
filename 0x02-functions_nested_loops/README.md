@@ -35,3 +35,7 @@ This program contains a function that prints the sign of a number; '+' if it is 
 6-abs.c
 Task 6
 This program contains a function that computes the absolute value of an integer.
+
+7-print_last_digit.c
+Task 7
+This program contains a function that returns the last digit of a number.
