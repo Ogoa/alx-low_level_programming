@@ -16,3 +16,7 @@ In this program, an infinite loop caused by the logic in the program was suppose
 2-largest_number.c
 Task 2
 This program contains a function that compares three integer arguments and returns the largest of the three.
+
+3-print_remaining_days.c
+Task 3
+This program contains a function that prints the remaining days in the year, taking leap years into consideration, based on the given date, month and year.
