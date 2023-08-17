@@ -28,7 +28,12 @@ This program contains a function that prints the numbers, from 0 to 9, followed 
 Task 4
 This program contains a function that prints the numbers, from 0 to 9 with an exception of 2 and 4, followed by a new line.
 
-5-more_numbers
+5-more_numbers.c
 Task 5
 This program contains a function that prints the numbers from 0 to 14,on ten lines. 
 "_putchar()"_ can only be used three times.
+
+6-print_line.c
+Task 6
+This program contains a function that draws a straight line by printing '_' (_) 'n' number of times.
+The line should end with a new line character. If 'n' is 0 or less, only a new line character.
