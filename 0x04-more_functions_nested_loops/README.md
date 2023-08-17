@@ -19,3 +19,7 @@ This program contains a function that checks for a digit(0 through 9) and return
 2-mul.c
 Task 2
 This program contains a function that multiplies two given integers and returns the result.
+
+3-print_numbers.c
+Task 3
+This program contains a function that prints the numbers, from 0 to 9, followed by a new line.
