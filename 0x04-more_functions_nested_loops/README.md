@@ -23,3 +23,7 @@ This program contains a function that multiplies two given integers and returns 
 3-print_numbers.c
 Task 3
 This program contains a function that prints the numbers, from 0 to 9, followed by a new line.
+
+4-print_most_numbers.c
+Task 4
+This program contains a function that prints the numbers, from 0 to 9 with an exception of 2 and 4, followed by a new line.
