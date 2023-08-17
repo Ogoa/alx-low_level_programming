@@ -61,3 +61,7 @@ Task 10
 This program contains a function that prints a triangle of a given size using the '#' character.
 Only a new line is printed if the given size is 0 or less.
 Only putchar() is used in this case.
+
+101-print_number.c
+Task 12
+This program has a function that prints an integer.
