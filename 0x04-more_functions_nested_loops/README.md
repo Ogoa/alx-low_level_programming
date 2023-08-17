@@ -49,9 +49,15 @@ This program contains a function that prints a square of size 'n', using the cha
 If 'n' is 0 or less only a new line should be printed.
 Only _putchar() is used.(_)
 
-9-fizz_buzz
+9-fizz_buzz.c
 Task 9
 This program contains a function that implements the "Fizz Buzz test".
 Numbers from 1 to 100 are printed, but multiples of three are replaced by "Fizz", multiples of five are replaced by "Buzz", while multiplesof both are replaced by "FizzBuzz".
 Each number/word is separated by a space.
 The standard library was used in this case.
+
+10-print_triangle.c
+Task 10
+This program contains a function that prints a triangle of a given size using the '#' character.
+Only a new line is printed if the given size is 0 or less.
+Only putchar() is used in this case.
