@@ -37,3 +37,8 @@ This program contains a function that prints the numbers from 0 to 14,on ten lin
 Task 6
 This program contains a function that draws a straight line by printing '_' (_) 'n' number of times.
 The line should end with a new line character. If 'n' is 0 or less, only a new line character.
+
+7-print_diagonal.c
+Task 7
+This program contains a function that draws a diagonal line by printing '\' a given number of times.
+If 'n' is 0 or less, the functions should only print '\n'.
