@@ -27,3 +27,8 @@ This program contains a function that prints the numbers, from 0 to 9, followed 
 4-print_most_numbers.c
 Task 4
 This program contains a function that prints the numbers, from 0 to 9 with an exception of 2 and 4, followed by a new line.
+
+5-more_numbers
+Task 5
+This program contains a function that prints the numbers from 0 to 14,on ten lines. 
+"_putchar()"_ can only be used three times.
