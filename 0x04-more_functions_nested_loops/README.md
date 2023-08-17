@@ -11,3 +11,7 @@ This is a header file that contains all the function prototypes that are used ac
 0-isupper.c
 Task 0
 This program contains a function that checks for an uppercase character and returns 1 if true and 0 if otherwise.
+
+1-isdigit.c
+Task 1
+This program contains a function that checks for a digit(0 through 9) and returns 1 if the given number is a digit, otherwise it returns 0;
