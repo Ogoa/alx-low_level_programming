@@ -48,3 +48,7 @@ This program contains a function that prints 'n' elements of an array of integer
 Numbers are separated by a comma, followed by a space.
 The numbers are displayed in the same order as they are stored in the array.
 The use of printf() was allowed.
+
+9-strcpy.c
+Task 9
+This program contains a function that copies the string pointed to by 'src', including the terminating null byte, to the buffer pointed by 'dest'.
