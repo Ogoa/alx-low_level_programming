@@ -23,3 +23,7 @@ This program contains a function that returns the length of a string.
 3-puts.c
 Task 3
 This program contains a function that prints a string followed by a new line to stdout.
+
+4-print_rev.c
+Task 4
+This program contains a function that prints a string in reversee, followed by a new line.
