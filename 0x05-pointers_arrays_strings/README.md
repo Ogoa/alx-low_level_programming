@@ -19,3 +19,7 @@ This program contains a function that swaps takes two arguments passed by refere
 2-strlen.c
 Task 2
 This program contains a function that returns the length of a string.
+
+3-puts.c
+Task 3
+This program contains a function that prints a string followed by a new line to stdout.
