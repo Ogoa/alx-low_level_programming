@@ -15,3 +15,7 @@ This program contains a function that takes a pointer to an integer and updates 
 1-swap.c
 Task 1
 This program contains a function that swaps takes two arguments passed by reference and swaps their values.
+
+2-strlen.c
+Task 2
+This program contains a function that returns the length of a string.
