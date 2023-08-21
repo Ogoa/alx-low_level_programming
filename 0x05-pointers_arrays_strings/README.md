@@ -11,3 +11,7 @@ This header file contains all the function prototypes of function used in the va
 0 -reset_to_98.c
 Task 0
 This program contains a function that takes a pointer to an integer and updates the value it points to, to 98.
+
+1-swap.c
+Task 1
+This program contains a function that swaps takes two arguments passed by reference and swaps their values.
