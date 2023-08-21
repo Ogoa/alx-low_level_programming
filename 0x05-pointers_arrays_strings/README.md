@@ -36,8 +36,15 @@ This program contains a function that reverses a string.
 Task 6
 This program contains a function that prints every other character of a string, starting with the first character, followed by a new line.
 
-7-puts_half
+7-puts_half.c
 Task 7
 This program contains a function that prints half a string, followed by a new line.
 Only the second half of the string is printed.
 If the number of characters is odd, the last 'n' charachters of the string should be printed, where "n = (length_of_the_string - 1) / 2".
+
+8-print_array.c
+Task 8
+This program contains a function that prints 'n' elements of an array of integers, followed by a new line.
+Numbers are separated by a comma, followed by a space.
+The numbers are displayed in the same order as they are stored in the array.
+The use of printf() was allowed.
