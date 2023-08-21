@@ -14,6 +14,11 @@ void puts_half(char *str)
 	{
 		i++;
 	}
+	if (i == 0)
+	{
+		_putchar('\n');
+		return;
+	}
 	length_of_string = i;
 	if ((length_of_string % 2) != 0)
 	{
@@ -29,4 +34,5 @@ void puts_half(char *str)
 		_putchar(*(str + n));
 		n++;
 	}
+	_putchar('\n');
 }
