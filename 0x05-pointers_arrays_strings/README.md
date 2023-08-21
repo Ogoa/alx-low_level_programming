@@ -35,3 +35,9 @@ This program contains a function that reverses a string.
 6-puts2.c
 Task 6
 This program contains a function that prints every other character of a string, starting with the first character, followed by a new line.
+
+7-puts_half
+Task 7
+This program contains a function that prints half a string, followed by a new line.
+Only the second half of the string is printed.
+If the number of characters is odd, the last 'n' charachters of the string should be printed, where "n = (length_of_the_string - 1) / 2".
