@@ -6,7 +6,7 @@
  */
 void rev_string(char *s)
 {
-	char *reverse = "";
+	char reverse = '\0';
 	int i = 0;
 	int j = 0;
 
@@ -15,10 +15,11 @@ void rev_string(char *s)
 		i++;
 	}
 	i--;
-	while (i >= 0)
+	for (j = 0; j < i; j++)
 	{
-		*(reverse + j) = *(s + i);
+		reverse = *(s + j);
+		*(s + j) = *(s + i);
+		*(s + i) = reverse;
 		i--;
-		j++;
 	}
 }
