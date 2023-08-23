@@ -21,3 +21,8 @@ This program contains a function that concatenates two strings, similar to strca
 Task 2
 This program contains a function that copies a string.
 The function works exactly like the "strncpy" function in the string library.
+
+3-strcmp.c
+Task 3
+This program contains a function that compares two strings.
+It works exactly like "strcmp" found in the C "string" library.
