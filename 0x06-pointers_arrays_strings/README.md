@@ -13,6 +13,11 @@ Task 0
 This program contains a function that concatenates two strings.
 The function appends the 'src' string to the 'dest' string,  overwriting the terminating null byte at the end of 'dest', and then adds a terminating null byte.
 
-1--strncat.c
+1-strncat.c
 Task 1
 This program contains a function that concatenates two strings, similar to strcat. However, only 'n' bytes from 'src' are used.
+
+2-strncpy.c
+Task 2
+This program contains a function that copies a string.
+The function works exactly like the "strncpy" function in the string library.
