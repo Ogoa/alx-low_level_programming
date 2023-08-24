@@ -26,3 +26,7 @@ The function works exactly like the "strncpy" function in the string library.
 Task 3
 This program contains a function that compares two strings.
 It works exactly like "strcmp" found in the C "string" library.
+
+4-rev_array.c
+Task 4
+This program contains a function that reverses the content of an array of integers.
