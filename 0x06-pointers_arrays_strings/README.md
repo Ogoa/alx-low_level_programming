@@ -30,3 +30,7 @@ It works exactly like "strcmp" found in the C "string" library.
 4-rev_array.c
 Task 4
 This program contains a function that reverses the content of an array of integers.
+
+5-string_toupper.c
+Task 5
+This program contains a function that changes all lowercase letters of a string to uppercase.
