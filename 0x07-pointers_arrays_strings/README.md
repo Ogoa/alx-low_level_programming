@@ -12,3 +12,8 @@ This is a header file containing all function prototypes of the functions used a
 Task 0
 This program contains a function that fills memory with a constant byte. It works in a similar way as the memset() function provided in the standard library.
 The function fills the first 'n' bytes of the memory area pointed to by 's' with the constant byte 'b'.
+
+1-memcpy.c
+Task 1
+This program contains a function that copies memory area. It works in a similar way as the memcpy() function provided in the standard library.
+It copies 'n' bytes from memory area 'src' to memory area 'dest' then returns a pointer to 'dest'.

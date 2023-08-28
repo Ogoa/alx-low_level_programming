@@ -19,6 +19,7 @@ char *_memset(char *s, char b, unsigned int n)
 	if (n < i)
 	{
 		int pos = 1;
+
 		while (pos <= n)
 		{
 			*temp_ptr = b;
