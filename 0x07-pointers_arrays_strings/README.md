@@ -17,3 +17,8 @@ The function fills the first 'n' bytes of the memory area pointed to by 's' with
 Task 1
 This program contains a function that copies memory area. It works in a similar way as the memcpy() function provided in the standard library.
 It copies 'n' bytes from memory area 'src' to memory area 'dest' then returns a pointer to 'dest'.
+
+2-strchr.c
+Task 2
+This program contains a function that locates a character in a string; it behaves in a similar way to the strchr() function provided in the standard library.
+It returns a pointer to the first occurrence of the character found in the given string, or a NULL if it is not found.
