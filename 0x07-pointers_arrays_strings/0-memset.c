@@ -10,16 +10,15 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *temp = s;
-	int i = 0;
+	char *temp_ptr = s;
+	unsigned int i = 0;
 
 	/*Calculating the number of bytes in the string*/
-	while (*(temp + i) != '\0')
+	while (*(temp_ptr + i) != '\0')
 		i++;
 	if (n < i)
 	{
-		int pos = 1;
-
+		unsigned int pos = 1;
 		while (pos <= n)
 		{
 			*temp_ptr = b;
