@@ -27,3 +27,8 @@ It returns a pointer to the first occurrence of the character found in the given
 Task 3
 This program contains a function that gets the length of a prefix substring; it behaves in a similar way to the strspn() function provided in the standard library.
 It returns the number of bytes in the initial segment of a string that is composed only of bytes from a character set.
+
+4-strpbrk.c
+Task 4
+This program contains a function that locates the first occurrence of any character in a given set, in a given string. It works in a similar way to the strpbrk() function provided in the standard library.
+It returns a pointer to the byte in the string, that matches one of the bytes in the specified set, or NULL if no match is found.

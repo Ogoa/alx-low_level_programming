@@ -29,10 +29,10 @@ unsigned int _strspn(char *s, char *accept)
 			}
 			else
 			{
-				if (iterator == set_length - 1)
-					return (segment_length);
-				else
+				if (!(iterator == set_length - 1))
 					continue;
+				else
+					return (segment_length);
 			}
 		}
 		i++;
