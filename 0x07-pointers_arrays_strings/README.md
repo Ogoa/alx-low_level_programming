@@ -22,3 +22,8 @@ It copies 'n' bytes from memory area 'src' to memory area 'dest' then returns a 
 Task 2
 This program contains a function that locates a character in a string; it behaves in a similar way to the strchr() function provided in the standard library.
 It returns a pointer to the first occurrence of the character found in the given string, or a NULL if it is not found.
+
+3-strspn.c
+Task 3
+This program contains a function that gets the length of a prefix substring; it behaves in a similar way to the strspn() function provided in the standard library.
+It returns the number of bytes in the initial segment of a string that is composed only of bytes from a character set.
