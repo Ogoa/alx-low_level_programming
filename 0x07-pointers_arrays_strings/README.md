@@ -32,3 +32,12 @@ It returns the number of bytes in the initial segment of a string that is compos
 Task 4
 This program contains a function that locates the first occurrence of any character in a given set, in a given string. It works in a similar way to the strpbrk() function provided in the standard library.
 It returns a pointer to the byte in the string, that matches one of the bytes in the specified set, or NULL if no match is found.
+
+5-strstr.c
+Task 5
+This program contains a function that locates a substring. It works in a similar way to the strstr() function provided in the standard library.
+It finds the first occurrence of the specified substring in a given string and returns the pointer to the beginning of the located substring, or NULL if otherwise.
+
+7-printf_chessboard.c
+Task 6
+Thisprogram contains a function that prints a chessboard.
