@@ -40,4 +40,9 @@ It finds the first occurrence of the specified substring in a given string and r
 
 7-printf_chessboard.c
 Task 6
-Thisprogram contains a function that prints a chessboard.
+Thisp rogram contains a function that prints a chessboard.
+
+8-print_diagsums.c
+Task 7
+This program contains a function that prints the sum of the two diagonals of a square matrix of integers.
+Use of the standard library is allowed.
