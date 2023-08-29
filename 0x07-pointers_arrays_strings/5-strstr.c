@@ -22,19 +22,12 @@ char *_strstr(char *haystack, char *needle)
 		{
 			int i = 0;
 
-			while ((*(temp_ptr + i) != '\0') && (*(needle + i) != '\0'))
+			while ((*(temp_ptr + i) != '\0') && (*(needle + i) != '\0')
+					&& *(temp_ptr + i) == *(needle + i))
 			{
-				if (*(temp + i) == *(needle + i))
-				{
-					i++;
-					continue;
-				}
-				else
-				{
-					break;
-				}
+				i++;
 			}
-			if (*(temp_ptr + i) == '\0')
+			if (*(needle + i) == '\0')
 				return (temp_ptr);
 		}
 		temp_ptr++;
