@@ -46,3 +46,7 @@ Thisp rogram contains a function that prints a chessboard.
 Task 7
 This program contains a function that prints the sum of the two diagonals of a square matrix of integers.
 Use of the standard library is allowed.
+
+100-set_string.c
+Task 8
+This program contains a function that sets the value of a pointer to a char.
