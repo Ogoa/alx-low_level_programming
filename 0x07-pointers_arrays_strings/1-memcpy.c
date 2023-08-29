@@ -19,7 +19,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		dest_length++;
 	while (*(temp_src + src_length) != '\0')
 		src++;
-	if ((dest_length < n) && (src_length < n))
+	if ((dest_length > n) && (src_length > n))
 	{
 		unsigned int pos = 1;
 
