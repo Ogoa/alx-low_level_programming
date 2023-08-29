@@ -12,28 +12,13 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	char *temp_dest = dest;
 	char *temp_src = src;
-	unsigned int dest_length = 0;
-	unsigned int src_length = 0;
+	unsigned int i;
 
-	while (*(temp_dest + dest_length) != '\0')
-		dest_length++;
-	while (*(temp_src + src_length) != '\0')
-		src++;
-	if ((dest_length > n) && (src_length > n))
+	for (i = 0; i < n; i++)
 	{
-		unsigned int pos = 1;
-
-		while (pos <= n)
-		{
-			*temp_dest = *src_dest;
-			temp_dest++;
-			src_dest++;
-			pos++;
-		}
-	}
-	else
-	{
-		return (dest);
+		*temp_dest = *temp_src;
+		temp_dest++;
+		temp_src++;
 	}
 	return (dest);
 }
