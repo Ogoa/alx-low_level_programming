@@ -12,3 +12,7 @@ This is a header file that contains all the function prototypes of functions tha
 0-puts_recursion.c
 Task 0
 This program contains a function that prints a string, followed by a new line. It worsk in a similar way to the puts() function provided in the standard library.
+
+1-printf_rev_recursion.c
+Task 1
+This program contains a function that prints a string in reverse.
