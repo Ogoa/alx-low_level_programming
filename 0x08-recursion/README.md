@@ -34,3 +34,7 @@ Task 5
 This program contains a function that returns the natural square root of a number.
 If the number does not have a natural square root, the function should return -1.
 The function works in a similar way to the sqrt() function provided by the standard library.
+
+6-is_prime_number.c
+Task 6
+This program contains a function that checks if a number is a prime number or not.
