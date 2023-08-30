@@ -16,7 +16,8 @@ int is_prime_number(int n)
 }
 
 /**
- * is_divisible - Checks the divisibility of the given number by other numbers between 1 and n-1
+ * is_divisible - Checks the divisibility of the given number by
+ * other numbers between 1 and n-1
  * @n: The number being evaluated
  * @div: The divisor
  *
