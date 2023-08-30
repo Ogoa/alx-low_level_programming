@@ -27,7 +27,7 @@ int my_sqrt(int n, int root)
 {
 	if ((root * root) == n)
 		return (root);
-	if (root == (num / 2))
+	if (root == (n / 2))
 		return (-1);
 	return (my_sqrt(n, root + 1));
 }
