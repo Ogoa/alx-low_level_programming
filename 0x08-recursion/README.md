@@ -20,3 +20,7 @@ This program contains a function that prints a string in reverse.
 2-strlen_recursion.c
 Task 2
 This program contains a function that returns the length of a string. It works in a similar way to the strlen() function provided in the standard library.
+
+3-factorial.c
+Task 3
+This program contains a function that returns the factorial of a given number.
