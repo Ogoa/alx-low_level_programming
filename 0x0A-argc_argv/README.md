@@ -27,3 +27,10 @@ Task 4
 This program adds positive numbers and prints the result followed by a new line.
 If no number is passed, '0' is printed.
 If one of the number contains symbols that are not digits, "Error" is printed and it returns '1'.
+
+100-change.c
+Task 5
+This program prints the minimum number of coins to make change for an amount of money.
+Usage: ./change cents where cents is the money whose change need to be found.
+You can use an unlimited amount of coins of values 25, 10, 5, 2 and 1.
+If the arguments passed are not exactly 1, "Error" should be printed followed by a new line, and a return value of '1'.
