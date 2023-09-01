@@ -21,3 +21,9 @@ Only one argument is printed per line.
 Task 3
 This program multiplies two numbers and prints the result followed by a new line.
 If the program does not receive exactly two arguments, it should print "Error" followed by a new line and also return '1';
+
+4-add.c
+Task 4
+This program adds positive numbers and prints the result followed by a new line.
+If no number is passed, '0' is printed.
+If one of the number contains symbols that are not digits, "Error" is printed and it returns '1'.
