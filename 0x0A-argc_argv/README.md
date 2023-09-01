@@ -11,3 +11,8 @@ This is a program that prints its name followed by a new line.
 1-args.c
 Task 1
 This program prints the number of arguments passed into it.
+
+2-args.c
+Task 2
+This program prints all the arguments it receives, including the first one.
+Only one argument is printed per line.
