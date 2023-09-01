@@ -14,3 +14,7 @@ This is a static library containing all object files of the C programs used in t
 
 *.c
 (*) These are empty C files created for purposes of task 0.
+
+create_static_lib.sh
+Task 1
+This is a shell script that creates a static library called "liball.a" from all the .c files that are in the current directory.
