@@ -12,7 +12,6 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
 	int change;
 
 	if (argc != 2)
@@ -20,7 +19,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	if (*(argv + 1) < 0)
+	if (**(argv + 1) < 0)
 	{
 		printf("0\n");
 		return (0);
