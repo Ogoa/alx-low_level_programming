@@ -19,3 +19,9 @@ It works in a similar way to the strdup() function provided by the standard libr
 Task 2
 This program contains a function that concatenates two strings.
 It returns a pointer to a newly allocated memory block that contains the contents of one string followed by the other string.
+
+3-alloc_grid.c
+Task 3
+This program contains a function that returns a pointer to a 2 dimensional array of integers.
+If the dimensions provided are 0 or negative, it returns NULL.
+Each element of the grid is initialised to zero.
