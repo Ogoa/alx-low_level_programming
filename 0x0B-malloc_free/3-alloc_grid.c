@@ -22,20 +22,22 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	for (rows = 0; rows < height; rows++)
 	{
+
 		array_ptr[rows] = malloc(sizeof(int) * width);
-	        if (array_ptr[rows] == NULL)
-        	{
-	            for (cols = 0; cols < rows; cols++)
-        	    {
-	                free(array_ptr[cols]);
-        	    }
-	            free(array_ptr);
-        	    return (NULL);
-	        }
-        	for (cols = 0; cols < width; cols++)
-	        {
-	            array_ptr[rows][cols] = 0;
-        	}
+		if (array_ptr[rows] == NULL)
+
+		{
+			for (cols = 0; cols < rows; cols++)
+			{
+				free(array_ptr[cols]);
+			}
+			free(array_ptr);
+			return (NULL);
+		}
+		for (cols = 0; cols < width; cols++)
+		{
+			array_ptr[rows][cols] = 0;
+		}
 	}
 	return (array_ptr);
 }
