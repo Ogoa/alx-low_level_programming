@@ -14,3 +14,8 @@ This program contains a function that creates an array of chars, and initializes
 Task 1
 This program contains a functions that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 It works in a similar way to the strdup() function provided by the standard library.
+
+2-str_concat.c
+Task 2
+This program contains a function that concatenates two strings.
+It returns a pointer to a newly allocated memory block that contains the contents of one string followed by the other string.
