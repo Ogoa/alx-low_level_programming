@@ -18,7 +18,7 @@ char *argstostr(int ac, char **av)
 
 	if (ac <= 0 || av == NULL)
 		return (NULL);
-	for (i = 1; i < ac; i++)
+	for (i = 0; i < ac; i++)
 	{
 		char *str = *(av + i);
 
@@ -29,7 +29,7 @@ char *argstostr(int ac, char **av)
 		}
 	}
 	new_string_length += ac;
-	new_string = malloc((sizeof(char) * new_string_length) + ac);
+	new_string = malloc((sizeof(char) * new_string_length) + 1);
 	if (new_string == NULL)
 		return (NULL);
 	counter = 0;
