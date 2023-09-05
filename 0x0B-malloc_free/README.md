@@ -34,3 +34,10 @@ This program contains a function that frees a 2 dimensionsal grid previously cre
 Task 5
 This program contains a function that concatenates all the arguments of your program to form a single string. The program then returns a pointer to the new string.
 Each arguments should be followed by a '\n' in the new string.
+
+101-strtow.c
+Task 6
+This program contains a function that splits a string into words and returns a pointer to an array of individual strings (words), or 'NULL' if "str == NULL" of "str == """.
+Each element of this array should contain a singleword, null-terminated.
+The last element of the returnde array should be NULL.
+Words are separated by spaces.
