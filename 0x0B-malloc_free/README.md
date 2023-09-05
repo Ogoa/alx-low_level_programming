@@ -25,3 +25,12 @@ Task 3
 This program contains a function that returns a pointer to a 2 dimensional array of integers.
 If the dimensions provided are 0 or negative, it returns NULL.
 Each element of the grid is initialised to zero.
+
+4-free_grid.c
+Task 4
+This program contains a function that frees a 2 dimensionsal grid previously created by the alloc_grid function.
+
+100-argstostr.c
+Task 5
+This program contains a function that concatenates all the arguments of your program to form a single string. The program then returns a pointer to the new string.
+Each arguments should be followed by a '\n' in the new string.
