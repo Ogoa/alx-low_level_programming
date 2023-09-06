@@ -18,7 +18,7 @@ char **strtow(char *str)
 	int j;
 	char *one_word;
 
-	if (str == NULL || *str == '\0')
+	if (str == NULL || *str == '\0' || *str == ' ')
 		return (NULL);
 	word_count = no_of_words(str);
 	words_ptr = malloc(sizeof(char *) * (word_count + 1));
