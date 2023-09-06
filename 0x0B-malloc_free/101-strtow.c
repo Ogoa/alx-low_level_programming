@@ -32,7 +32,7 @@ char **strtow(char *str)
 			continue;
 		}
 		length = word_length((str + i));
-		one_word = malloc(sizeof(char) * length);
+		one_word = malloc(sizeof(char) * (length + 1));
 		if (one_word == NULL)
 			return (NULL);
 		for (j = 0; j < length; j++, i++)
@@ -60,14 +60,12 @@ int no_of_words(char *str)
 
 	while (*(str + i) != '\0')
 	{
-		if (*(str + i) == ' ')
-		{
+		while (*(str + i) == ' ') /* Skip spaces */
 			i++;
-			continue;
-		}
-		while (*(str + i) != ' ')
+		if (*(str + i) != '\0')
+			no_of_words++;
+		while (*(str + i) != ' ' && *(str + i) != '\0')
 			i++;
-		no_of_words++;
 	}
 	return (no_of_words);
 }
@@ -82,7 +80,7 @@ int word_length(char *str)
 {
 	int length = 0;
 
-	while (*(str + length) != ' ')
+	while (*(str + length) != ' ' && *(str + length) != '\0')
 		length++;
 	return (length);
 }
