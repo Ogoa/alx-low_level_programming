@@ -29,3 +29,7 @@ Task 3
 This program contains a function that creates an array of integers. The array should contain all the values from 'min' (included) to 'max' (included), ordered from 'min' to 'max'.
 It should return the pointer to the newly created array.
 If 'min' > 'max' or malloc() fails, 'NULL' is returned.
+
+100-realloc.c
+Task 4
+This program contains a function that reallocates a memory block using malloc() and free() the returns a pointer to the new memory block. It works in a similar way to the realloc() function provided in the standard library.
