@@ -10,7 +10,6 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	unsigned int i;
 	char *my_arr = NULL;
 
 	if (nmemb == 0 || size == 0)
@@ -18,7 +17,20 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	my_arr = malloc(size * nmemb);
 	if (my_arr == NULL)
 		return (NULL);
-	for (i = 0; i < nmemb; i++)
-		*(my_arr + i) = 0;
+	_memset(my_arr, 0, nmemb * size);
 	return (my_arr);
+}
+
+/**
+ * _memset - Populates memory with a given byte
+ * @ptr: Pointer to the area in memory to be filled
+ * @c: The constant byte
+ * @n: The number of times to copy the constant byte
+ */
+void _memset(char *ptr, char c, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		*(ptr + i) = c;
 }
