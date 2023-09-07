@@ -23,3 +23,9 @@ If 'NULL' is passed, it is treated as an empty string.
 Task 2
 This program conatins a function that allocates memory for an array using malloc() and returns a pointer to the allocated memory, but works in a similar way to the calloc() function provided in the standard library.
 It allocates memory for an array of 'nmemb' elements of 'size' bytes. If 'nmemb' is 0 or the function fails, then 'NULL' is returned.
+
+3-array_range.c
+Task 3
+This program contains a function that creates an array of integers. The array should contain all the values from 'min' (included) to 'max' (included), ordered from 'min' to 'max'.
+It should return the pointer to the newly created array.
+If 'min' > 'max' or malloc() fails, 'NULL' is returned.
