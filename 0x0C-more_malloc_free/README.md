@@ -18,3 +18,8 @@ This program contains a function that concatenates two strings and returns a poi
 If 'n' is greater or equal to the length of 's2' then the entire string is used.
 If the function fails, it should return 'NULL'.
 If 'NULL' is passed, it is treated as an empty string.
+
+2-calloc.c
+Task 2
+This program conatins a function that allocates memory for an array using malloc() and returns a pointer to the allocated memory, but works in a similar way to the calloc() function provided in the standard library.
+It allocates memory for an array of 'nmemb' elements of 'size' bytes. If 'nmemb' is 0 or the function fails, then 'NULL' is returned.
