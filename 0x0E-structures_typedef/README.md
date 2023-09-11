@@ -4,6 +4,13 @@ It contains both header files and C source files.
 [x] Only standard library functions allowed were printf(), malloc(), free() and exit().
 
 
+main.h
+
+
 dog.h
 Task 0
-This header file defines a new type, "struct dog" and its elements.
+As well as defining function prototypes of all the functions that have been used across the various source files in this project, this header file also contains a definition of the arbitrary type, "struct dog" with its three elements: name, age ad owner.
+
+1-init_dog.c
+Task 1
+This program contains a function that initializes a variable of type "struct dog".
