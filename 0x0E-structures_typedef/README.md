@@ -26,3 +26,7 @@ Here, a new type 'dog_t' is defined as a new name for the type "struct dog".
 4-new_dog
 Task 4
 This program contains a function that creates a new dog. 'NULL' is returned if the function fails.
+
+5-free_dog.c
+Task 5
+This program contatins a function that frees dogs.
