@@ -14,3 +14,7 @@ As well as defining function prototypes of all the functions that have been used
 1-init_dog.c
 Task 1
 This program contains a function that initializes a variable of type "struct dog".
+
+2-print_dog.c
+Task 2
+This program contains a function that prints the details of an instance of "struct dog".
