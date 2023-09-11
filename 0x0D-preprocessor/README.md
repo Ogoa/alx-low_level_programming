@@ -15,3 +15,7 @@ This header file defines a macro named 'PI' as an abbreviation for the token 3.1
 2-main.c
 Task 2
 This program contains a function that prints the name of the file it was compiled from, followed by a new line.
+
+3-function_like_macro.h
+Task 3
+This header file defines a macro, 'ABS(x)', that computes the absolute value of a number passed in as a token.
