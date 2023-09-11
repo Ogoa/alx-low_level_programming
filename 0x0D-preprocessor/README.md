@@ -19,3 +19,7 @@ This program contains a function that prints the name of the file it was compile
 3-function_like_macro.h
 Task 3
 This header file defines a macro, 'ABS(x)', that computes the absolute value of a number passed in as a token.
+
+4-sum.h
+Task 4
+This header file defines a macro, SUM(x, y), that computes the sum of the two tokens.
