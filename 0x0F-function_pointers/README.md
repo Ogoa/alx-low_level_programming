@@ -19,3 +19,8 @@ Task 2
 This program contains a function that seraches for an integer.
 If no element matches or the size of the array is less than or equal to 0, -1 is returned.
 Otherwise, it returns the index of the first element for which the cmp function does not return 0.
+
+3-main.c 3-op_functions.c 3-get_op_func.c 3-calc.h
+Task 3
+These files culminatively form a program that takes three arguments at the terminal; two integers and a mathematical operand.
+The result is then returned
