@@ -2,6 +2,7 @@
 
 /**
  * print_int - Prints an integer passed to it
+ * @num: Number to be printed
  */
 void print_int(int num)
 {
@@ -19,7 +20,7 @@ void print_int(int num)
 	}
 	else
 	{
-		while(num)
+		while (num)
 		{
 			temp_array[i] = (num % 10) + '0';
 			num /= 10;
