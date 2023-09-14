@@ -11,3 +11,8 @@ This header file contains all the function prototypes of all functions that have
 0-sum_them_all.c
 Task 0
 This program contains a function that returns the sum of all its parameters.
+
+1-print_numbers.c
+Task 1
+This program contains a function that prints numbers followed by a new line. In between the numbers, a string is printed as a separator between the numbers.
+If the separator has a NULL reference, it's not printed.
