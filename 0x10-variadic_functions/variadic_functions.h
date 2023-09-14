@@ -8,5 +8,6 @@ int _strlen(const char *str);
 void _strcpy(char *dest, const char *src);
 void _print_int(int num);
 void _print_str(const char *str);
+void print_strings(const char *separator, const unsigned int n, ...);
 
 #endif /* #ifndef VAIRADIC_FUNCTIONS_H */

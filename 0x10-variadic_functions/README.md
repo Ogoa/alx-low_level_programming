@@ -14,5 +14,10 @@ This program contains a function that returns the sum of all its parameters.
 
 1-print_numbers.c
 Task 1
-This program contains a function that prints numbers followed by a new line. In between the numbers, a string is printed as a separator between the numbers.
-If the separator has a NULL reference, it's not printed.
+This program contains a function that prints numbers followed by a new line. In between the numbers, a string is printed as a separator.
+If the separator has a NULL reference, it is not printed.
+
+2-print_strings.c
+Task 2
+This program contains a function that prints strings, followed by a new line. In between the strings, a separate string is printed as a separator.
+If the separator has a NULL reference, it is not printed.
