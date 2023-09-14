@@ -34,7 +34,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		const char *str_arg;
 
 		str_arg = va_arg(strings, char *);
-		_print_str(str_arg);
+		if (str_arg == NULL)
+			_print_str("(nil)");
+		else
+			_print_str(str_arg);
 		if (i == (n - 1))
 		{
 			i++;
@@ -87,7 +90,7 @@ void _strcpy(char *dest, const char *src)
 }
 
 /**
- * print_str - Prints a string literal
+ * _print_str - Prints a string literal
  * @str: Pointer to the memory location of the string being printed
  *
  * Return: Nothing
