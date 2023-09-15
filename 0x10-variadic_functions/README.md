@@ -1,8 +1,8 @@
-This directory contains tasks under the "0x10. C - Variadic functions" project. <br \>
-It contains both C source files and a single header file. <br \>
-[x] Only standard library functions allowed are malloc(), free() and exit().
-[x] The stdarg.h library was also allowed for the purposes of using the va_start va_arg and va_end macros.
-[x] No global variables are allowed
+This directory contains tasks under the "0x10. C - Variadic functions" project. \
+It contains both C source files and a single header file. \
+- [x] Only standard library functions allowed are malloc(), free() and exit().
+- [x] The stdarg.h library was also allowed for the purposes of using the va_start va_arg and va_end macros.
+- [x] No global variables are allowed
 
 
 variadic_functions.h
