@@ -21,3 +21,8 @@ If the separator has a NULL reference, it is not printed.
 Task 2
 This program contains a function that prints strings, followed by a new line. In between the strings, a separate string is printed as a separator.
 If the separator has a NULL reference, it is not printed.
+
+3-prints_all.c
+Task 3
+This program contains a function that prints anything.
+It takes a string template as the required argument to determine what is to be printed.
