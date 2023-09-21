@@ -19,4 +19,9 @@ This program contains a function that prints all the elements of a linked list. 
 
 `1-list_len.c`<br>
 Task 1<br>
-This program contains a functino that returns the number of elements in a linked list.
+This program contains a function that returns the number of elements in a linked list.
+
+`2-add_node.c`<br>
+Task 2<br>
+This program contains a function that adds a new node at the beginning of a linked list.<br>
+The function returns the address of the new element, or NULL if the function has failed. It duplcates the `str` of the node.
