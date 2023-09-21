@@ -16,3 +16,7 @@ This header file contains the function prototypes for all the functions across a
 `0-print_list.c`<br>
 Task 0<br>
 This program contains a function that prints all the elements of a linked list. It also returns the number of nodes in the linked list.
+
+`1-list_len.c`<br>
+Task 1<br>
+This program contains a functino that returns the number of elements in a linked list.

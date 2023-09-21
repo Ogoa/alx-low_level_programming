@@ -21,5 +21,6 @@ typedef struct list_s
 
 size_t print_list(const list_t *h);
 void print_str(char *str, unsigned int len);
+size_t list_len(const list_t *h);
 
 #endif /* #ifndef LISTS_H */
