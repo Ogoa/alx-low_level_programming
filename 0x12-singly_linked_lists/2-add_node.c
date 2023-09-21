@@ -34,7 +34,7 @@ list_t *add_node(list_t **head, const char *str)
 }
 
 /**
- * str_len - Evaluates the length of a string
+ * str_length - Evaluates the length of a string
  * @str: Pointer to the memory location of the string
  *
  * Return: The length of the string
