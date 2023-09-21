@@ -29,4 +29,8 @@ The function returns the address of the new element, or NULL if the function has
 `3-add_node_end.c`<br>
 Task 3<br>
 This program contains a function that adds a new node at the end of a linked list. It also returns the address of the new element, or NULL if it failed.
-THe string is also duplicated.
+The string is also duplicated.
+
+`4-free_list.c`<br>
+Task 4<br>
+This program contains a function that frees all the memory allocated to the elements of a linked list and the linked list itself.
