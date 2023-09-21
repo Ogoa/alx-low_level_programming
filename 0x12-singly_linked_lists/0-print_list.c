@@ -43,9 +43,11 @@ void print_str(char *str, unsigned int len)
 	_putchar('[');
 	_putchar(len + '0');
 	_putchar(']');
+	_putchar(' ');
 	while (*(str + i) != '\0')
 	{
 		_putchar(*(str + i));
 		i++;
 	}
+	_putchar('\n');
 }

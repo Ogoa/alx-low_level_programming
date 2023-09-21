@@ -25,3 +25,8 @@ This program contains a function that returns the number of elements in a linked
 Task 2<br>
 This program contains a function that adds a new node at the beginning of a linked list.<br>
 The function returns the address of the new element, or NULL if the function has failed. It duplcates the `str` of the node.
+
+`3-add_node_end.c`<br>
+Task 3<br>
+This program contains a function that adds a new node at the end of a linked list. It also returns the address of the new element, or NULL if it failed.
+THe string is also duplicated.
