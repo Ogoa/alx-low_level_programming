@@ -34,3 +34,7 @@ The string is also duplicated.
 `4-free_list.c`<br>
 Task 4<br>
 This program contains a function that frees all the memory allocated to the elements of a linked list and the linked list itself.
+
+`100-first.c`<br>
+Task 5<br>
+This program contains a function that prints out a string even before the `main` function is executed.
