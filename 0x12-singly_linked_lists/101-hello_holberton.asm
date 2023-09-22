@@ -1,11 +1,19 @@
 section .data
-	hello db "Hello, Holberton", 0
+	format db "Hello, Holberton", 0
+	newline db 10, 0
 
 section .text
 	global main
-	extern puts
+	extern printf, exit
 
 main:
-	mov rdi, hello
-	call puts
-	ret
+	mov rdi, format
+	xor rax, rax
+	call printf
+
+	mov rdi, newline
+	xor rax, rax
+	call printf
+
+	mov rdi, 0
+	call exit
