@@ -31,3 +31,7 @@ This program contains a function that appends a new node at the tail of a `listi
 `4-free_listint.c`<br>
 Task 4<br>
 This program contains a function that frees the memory allocated to a `listint_t` linked list.
+
+`5-free_listint2.c`<br>
+Task 5<br>
+This program contains a function that frees a `listint_t` linked list and sets the `head` to `NULL`.
