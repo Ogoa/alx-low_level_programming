@@ -3,7 +3,7 @@
 /**
  * add_nodeint - Inserts a new node at the beginning of a singly linked list
  * @head: Pointer to a pointer holding the address of the head node
- * n: The value to be used to populate the integer value of the node
+ * @n: The value to be used to populate the integer value of the node
  *
  * Return: The address of the new node
  */

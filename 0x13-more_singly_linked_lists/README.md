@@ -35,3 +35,8 @@ This program contains a function that frees the memory allocated to a `listint_t
 `5-free_listint2.c`<br>
 Task 5<br>
 This program contains a function that frees a `listint_t` linked list and sets the `head` to `NULL`.
+
+`6-pop_listint.c`<br>
+Task 6<br>
+This program contains a function that deletes a head node of a `listint_t` linked list and returns the head node's data value.
+If the linked list is empty, 0 is returned.

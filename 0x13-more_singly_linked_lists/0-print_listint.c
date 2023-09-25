@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_listint(const listint_t *h)
+ * print_listint - Prints the integer values of nodes in a linked list
  * @h: Pointer to the header node of the linked list
  *
  * Return: The number of nodes in the linked list
