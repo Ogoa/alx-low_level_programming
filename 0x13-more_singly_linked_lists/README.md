@@ -54,3 +54,8 @@ If the list is empty, 0 is returned.
 Task 9<br>
 This program contains a function that inserts a new node at a given position in the linked list, then returns the address of the new node or `NULL` if it failed.
 If it is not possible to add the new node at the specified index, the node is not inserted and `NULL` is returned.
+
+`10-delete_nodeint.c`<br>
+Task 10<br>
+This program contains a function that deletes the node at a given index of an existing linked list.
+The function then returns 1 if the operation succeded otherwise it returns 0.
