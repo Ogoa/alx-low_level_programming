@@ -21,5 +21,9 @@ Task 1<br>
 This program contains a function that returns the number of elements in a linked list.
 
 `2-add_nodeint.c`<br>
-Task 1<br>
+Task 2<br>
 This program contains a function that adds a new node at the beginning of a `listint_t` linked list.
+
+`3-add_nodeint_end.c`<br>
+Task 3<br>
+This program contains a function that appends a new node at the tail of a `listint_t` linked list.
