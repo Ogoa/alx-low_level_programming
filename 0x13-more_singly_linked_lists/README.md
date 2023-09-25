@@ -49,3 +49,8 @@ This program contains a function that returns the nth node of a `listint_t` link
 Task 8<br>
 This program contains a function that returns the sum of all the data values of the nodes in a `listint_t` linked list.
 If the list is empty, 0 is returned.
+
+`9-insert_nodeint.c`<br>
+Task 9<br>
+This program contains a function that inserts a new node at a given position in the linked list, then returns the address of the new node or `NULL` if it failed.
+If it is not possible to add the new node at the specified index, the node is not inserted and `NULL` is returned.
