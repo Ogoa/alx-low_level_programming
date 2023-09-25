@@ -15,3 +15,7 @@ Source file containing the definition of the custom `_putchar` function that pri
 `0-print_listint.c`<br>
 Task 0<br>
 This program contains a function that prints all the elements of a linked list.
+
+`1-listint_len.c`<br>
+Task 1<br>
+This program contains a function that returns the number of elements in a linked list.
