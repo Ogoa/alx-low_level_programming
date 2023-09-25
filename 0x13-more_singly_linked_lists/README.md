@@ -27,3 +27,7 @@ This program contains a function that adds a new node at the beginning of a `lis
 `3-add_nodeint_end.c`<br>
 Task 3<br>
 This program contains a function that appends a new node at the tail of a `listint_t` linked list.
+
+`4-free_listint.c`<br>
+Task 4<br>
+This program contains a function that frees the memory allocated to a `listint_t` linked list.
