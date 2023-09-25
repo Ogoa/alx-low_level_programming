@@ -4,7 +4,7 @@
  * delete_nodeint_at_index - Deletes a node at a given index of an existing
  * linked list
  * @head: Pointer to a pointer containing the address of the head node
- * @index: The specified index of the node to be deleted
+ * index: The specified index of the node to be deleted
  *
  * Return: 1 on success, otherwise -1
  */
