@@ -44,3 +44,8 @@ If the linked list is empty, 0 is returned.
 `7-get_nodeint.c`<br>
 Task 7<br>
 This program contains a function that returns the nth node of a `listint_t` linked list. If the node does not exist, `NULL` is returned.
+
+`8-sum_listint.c`<br>
+Task 8<br>
+This program contains a function that returns the sum of all the data values of the nodes in a `listint_t` linked list.
+If the list is empty, 0 is returned.
