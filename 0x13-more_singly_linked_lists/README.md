@@ -59,3 +59,7 @@ If it is not possible to add the new node at the specified index, the node is no
 Task 10<br>
 This program contains a function that deletes the node at a given index of an existing linked list.
 The function then returns 1 if the operation succeded otherwise it returns 0.
+
+`100-reverse_listint.c`<br>
+Task 11<br>
+This program contains a function that reverses a `listint_t` linked list and returns a pointer to the first node of the reversed list.
