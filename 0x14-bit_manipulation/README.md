@@ -31,3 +31,7 @@ This program contains a function that sets the value of a bit to 0 at a given in
 Task 5<br>
 This program contains a function that returns the number of bits you would need to flip to get from one number to another.
 The use of `%` and `/` operators was not allowed.
+
+`100-get_endianness.c`<br>
+Task 6<br>
+This program contains a function that checks for the endianness of a computer.
