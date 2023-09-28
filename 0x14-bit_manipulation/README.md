@@ -10,3 +10,7 @@ This header file contains funciton prototypes of all the functions used across t
 `0-binary_to_uint.c`<br>
 Task 0<br>
 This program contains a function that converts a binary number to an `unsigned int`. The binary number is passed in as a string.
+
+`1-print_binary.c`<br>
+Task 1<br>
+This program contains a function that prints the binary representaion of a number. The use of arrays, `malloc` and `%` and `/` operators was not allowed in this case.
