@@ -18,3 +18,7 @@ This program contains a function that prints the binary representaion of a numbe
 `2-get_bit.c`<br>
 Task 2<br>
 This program contains a function that returns the value of a bit at a given index.
+
+`3-set_bit.c`<br>
+Task 3<br>
+This program contains a function that sets the value of a bit to `1` at a given index.
