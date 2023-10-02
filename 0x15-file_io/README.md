@@ -14,3 +14,7 @@ This program contains a function that reads a text file and prints it to the `PO
 `1-create_file.c`<br>
 Task 1<br>
 This program contains a function that creates a file and returns `1` on success and `-1` on failure.
+
+`2-append_text_to_file.c`<br>
+Task 2<br>
+This program contains a function that appends text to the end of a file and returns `1` on success and `-1` on failure.
