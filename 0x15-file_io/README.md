@@ -10,3 +10,7 @@ This header file contains all function prototypes of the functions used across a
 `0-read_textfile.c`<br>
 Task 0<br>
 This program contains a function that reads a text file and prints it to the `POSIX` standard output, then returns the actual number of letters it could read and print.
+
+`1-create_file.c`<br>
+Task 1<br>
+This program contains a function that creates a file and returns `1` on success and `-1` on failure.

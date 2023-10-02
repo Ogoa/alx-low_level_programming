@@ -12,10 +12,11 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t bytes_read = 0;
 	ssize_t bytes_written = 0;
 	int f_descriptor;
-	char buffer[1024];
+	char *buffer;
 
 	if (filename == NULL)
 		return (0);
+	buffer = malloc(sizeof(char) * letters);
 	f_descriptor = open(filename, O_RDONLY);
 	if (f_descriptor == -1)
 		return (0);
@@ -25,5 +26,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	bytes_written = write(STDOUT_FILENO, buffer, bytes_read);
 	if (bytes_written == -1 || bytes_written != bytes_read)
 		return (0);
+	free(buffer);
+	close(f_descriptor);
 	return (bytes_written);
 }
