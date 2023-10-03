@@ -16,6 +16,7 @@ int main(int argc, char **argv)
 	char *buffer;
 	ssize_t bytes_read = 0;
 	ssize_t bytes_written = 0;
+	int flag = 0;
 
 	if (argc != 3)
 	{
@@ -31,12 +32,15 @@ int main(int argc, char **argv)
 			S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
 	while ((bytes_read = read(fd_from, buffer, sizeof(buffer))) > 0)
 	{
+		if (flag > 0)
+			fd_to = open(argv[2], O_WRONLY | O_APPEND);
 		bytes_written = write(fd_to, buffer, bytes_read);
 		if (bytes_written == -1 || fd_to == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to file %s\n", argv[2]);
 			exit(99);
 		}
+		flag++;
 	}
 	if (fd_from == -1 || bytes_read == -1)
 	{
