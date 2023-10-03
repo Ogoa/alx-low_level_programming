@@ -18,3 +18,11 @@ This program contains a function that creates a file and returns `1` on success 
 `2-append_text_to_file.c`<br>
 Task 2<br>
 This program contains a function that appends text to the end of a file and returns `1` on success and `-1` on failure.
+
+`3-cp.c`<br>
+Task 3<br>
+This program contains a function that copies the content of a file to another file.
+Usage:
+```
+cp file_from file_to
+```
