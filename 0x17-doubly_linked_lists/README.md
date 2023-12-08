@@ -66,3 +66,11 @@ Prototype:
 ```
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsingned int idx, int n);
 ```
+
+<br>
+`8-delete_dnodeint.c`<br>
+A function that deletes the node at index `index` of a `dlistint_t` linked list. It returns `1` on success otherwise `-1`.<br>
+Prototype:
+```
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
+```
