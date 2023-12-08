@@ -35,3 +35,10 @@ A function that adds a new node at the end of a `dlistint_t` list and returns th
 ```
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 ```
+
+<br>
+`4-free_dlistint.c`<br>
+A function that frees a `dlistint_t` list.<br>Prototype:
+```
+void free_dlistint(dlistint_t *head);
+```
