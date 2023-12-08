@@ -14,3 +14,10 @@ Prototype:
 ```
 size_t print_dlistint(const dlistint_t *h);
 ```
+
+<br>
+`1-dlistint_len.c`<br>
+A function that returns the number of elements in a linked `dlistint_t` list.<br>Prototype:
+```
+size_t dlistint_len(const dlistint_t *h);
+```
