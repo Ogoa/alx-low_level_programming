@@ -50,3 +50,11 @@ Prototype:
 ```
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 ```
+
+<br>
+`6-sum_dlistint.c`<br>
+A function that returns the sum of all the data (n) of a `dlistint_t` linked list. If the list is empty, it returns `0`.<br>
+Prototype:
+```
+int sum_dlistint(dlistint_t *head);
+```
