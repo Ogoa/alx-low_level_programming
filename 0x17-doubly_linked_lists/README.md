@@ -58,3 +58,11 @@ Prototype:
 ```
 int sum_dlistint(dlistint_t *head);
 ```
+
+<br>
+`7-insert_dnodeint.c`<br>
+A function that inserpolates a new node at a given position then returns the address of the new node or `NULL` if it failed.<br>
+Prototype:
+```
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsingned int idx, int n);
+```
