@@ -7,3 +7,7 @@ Header file containing the prototypes of all functions used across all the C sou
 <br>
 `libdynamic.so`<br>
 A dynamic library containing all the functions needed in the task.
+
+<br>
+`1-create_dynamic_lib.sh`<br>
+A scri[t that creates a dynamic library called `liball.so` from all the `.c` files that are in the current directory.
