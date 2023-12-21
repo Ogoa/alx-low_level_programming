@@ -13,3 +13,6 @@ A function that creates a hash table and returns a pointer to the nexly created 
 ```
 hash_table_t *hash_table_create(unsigned long int size);
 ```
+
+<br>`1-djb2.c`<br>
+A hash function, `unsigned long int hash_djb2(const unsigned char *str);`, that implements the djb2 algorithm.
