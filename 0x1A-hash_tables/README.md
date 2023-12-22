@@ -32,3 +32,10 @@ Prototype:
 ```
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 ```
+
+
+<br>`4-hash_table_get.c`<br>
+A function that retrieves a value associated with a key. It returns the value associated with an element, or `NULL` if `key` couldn't be found.<br>Prototype:
+```
+char *hash_table_get(const hash_table_t *ht, const char *key);
+```
