@@ -39,3 +39,11 @@ A function that retrieves a value associated with a key. It returns the value as
 ```
 char *hash_table_get(const hash_table_t *ht, const char *key);
 ```
+
+
+<br>`5-hash_table_print.c`<br>
+A function that prints a hash table. It prints the key/value in the order that they appear in the array of hash table.<br>
+Prototype:
+```
+hash_table_print(const hash_table_t *ht);
+```
