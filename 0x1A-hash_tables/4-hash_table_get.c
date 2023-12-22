@@ -6,7 +6,7 @@
  * @key: The key of the item being looked for in the table
  *
  * Return: The value associated with the @key in a key:value pair
- * 	Otherwise NULL if @key is not found in the table
+ * Otherwise NULL if @key is not found in the table
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
