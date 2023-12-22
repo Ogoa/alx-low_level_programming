@@ -16,3 +16,11 @@ hash_table_t *hash_table_create(unsigned long int size);
 
 <br>`1-djb2.c`<br>
 A hash function, `unsigned long int hash_djb2(const unsigned char *str);`, that implements the djb2 algorithm.
+
+
+<br>`2-key_index.c`<br>
+A function that gives you the index of a key using the `hash_djb2` function.<br>
+Prototype:
+```
+unsigned long int key_index(const unsigned char *key, unsigned long int size);
+```
