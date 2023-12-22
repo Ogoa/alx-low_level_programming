@@ -16,17 +16,14 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	hash_node_t *temp;
 	unsigned long int index; /* Hash value returned by the hash function */
 
-	if (ht == NULL || key == NULL) /**
-			  * Handle a NULL pointer to the hash table
-			  * or an empty key
-			  */
+	if (ht == NULL) /* Handle a NULL pointer to the hash table */
 		return (0);
 	/* Allocate memory for the element being added */
 	new_node = malloc(sizeof(hash_node_t));
 	if (new_node == NULL)
 		return (0);
-	new_node->key = _strdup(key);
-	new_node->value = _strdup(value);
+	new_node->key = (char *)key;
+	new_node->value = (char *)value;
 	new_node->next = NULL;
 
 	index = key_index((const unsigned char *)key, ht->size);
