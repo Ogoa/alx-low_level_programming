@@ -24,3 +24,11 @@ Prototype:
 ```
 unsigned long int key_index(const unsigned char *key, unsigned long int size);
 ```
+
+
+<br>`3-hash_table_set.c`<br>
+A function that adds an element to the hash table.<br>
+Prototype:
+```
+int hash_table_set(hash_table_t *ht, const char *key, const char *value);
+```
