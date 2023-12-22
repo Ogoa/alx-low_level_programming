@@ -47,3 +47,10 @@ Prototype:
 ```
 hash_table_print(const hash_table_t *ht);
 ```
+
+
+<br>`6-hash_table_delete.c`<br>
+A function that deletes a hash table as well as freeing all the memory it occupies.<br>Prototype:
+```
+void hash_table_delete(hash_table_t *ht);
+```
