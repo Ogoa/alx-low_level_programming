@@ -17,10 +17,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	unsigned long int i = 0;
 	char *value_copy;
 
-	if (ht == NULL || key == NULL || *key == '\0') /**
-			  * Handle a NULL pointer to the hash table
-			  * and an empty @key string
-			  */
+	if (ht == NULL || key == NULL || *key == '\0')
 		return (0);
 	/* Allocate memory for the element being added */
 	value_copy = strdup(value);
@@ -30,16 +27,15 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new_node->key = strdup(key);
 	new_node->value = strdup(value);
 	new_node->next = NULL;
-
 	index = key_index((const unsigned char *)key, ht->size);
 	for (i = index; ht->array[i]; i++)
 	{
-	    if (strcmp(ht->array[i]->key, key) == 0)
-	    {
-	        free(ht->array[i]->value);
-	        ht->array[i]->value = value_copy;
-	        return (1);
-	    }
+		if (strcmp(ht->array[i]->key, key) == 0)
+		{
+			free(ht->array[i]->value);
+			ht->array[i]->value = value_copy;
+			return (1);
+		}
 	}
 	if (new_node->key == NULL)
 	{
