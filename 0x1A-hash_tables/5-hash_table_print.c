@@ -32,7 +32,7 @@ void hash_table_print(const hash_table_t *ht)
 				if (node != NULL)
 					printf(", ");
 			}
-			flag++;
+			flag = 1;
 		}
 	}
 	printf("}\n");
